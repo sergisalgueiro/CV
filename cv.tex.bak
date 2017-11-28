@@ -1,0 +1,211 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{xhfill}
+\definecolor{mygray}{gray}{0.75}
+%trials
+\usepackage{{ccicons}}
+ \usepackage{ifsym}
+ \newcommand*{\pin}{%
+  \includegraphics[height=\heightof{M}]{pin}%
+}
+\newcommand*{\LinkedinLogo}{%
+  \includegraphics[height=\heightof{M}]{LinkedInLogo}%
+}
+\newcommand*{\SkypeLogo}{%
+  \includegraphics[height=\heightof{M}]{SkypeLogo}%
+}
+
+%\usepackage[default,otf,light]{sourcesanspro}
+\usepackage{marvosym}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Dimitrios}{ Bizopoulos}
+      {Mechanical Engineer}
+      
+% Fake text to add separator      
+%\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+%.....
+%}}
+
+%\ccAttribution
+% In the aside, each new line forces a line break
+\begin{aside}
+   \section{{\Gentsroom\hskip 3pt Personal Info}}
+   28 Years old
+   Male
+   \section{{\pin\hskip 3pt Address}}
+    Toftærsvej 64 
+    2820, Copenhagen, Denmark
+    ~
+  \section{\Telefon\hskip 3pt   Telephone}
+    +45 532 17328
+    +30 694 5975540
+    ~
+    \section{\SkypeLogo\hskip 3pt  Skype}
+    Username: mpizosdim
+    ~
+  \section{\Letter\hskip 3pt   Mail}
+    \href{mailto:dimitrisbizopoulos@gmail.com}{\textbf{dimitrisbizopoulos@}\\gmail.com}
+    ~
+  \section{\LinkedinLogo\hskip 3pt  LinkedIn}
+    \href{https://dk.linkedin.com/pub/dimitrios-bizopoulos/41/a84/b99}{DimitrisBizopoulos}
+    ~
+  \section{Software}
+    \textbf{MATLAB}\includegraphics[scale=0.07]{img/5starNew}
+    \textbf{Python}\includegraphics[scale=0.07]{img/2starNew}
+    \textbf{R}\includegraphics[scale=0.07]{img/2starNew}
+    \textbf{Latex}\includegraphics[scale=0.07]{img/4starNew}
+    \textbf{M.Office}\includegraphics[scale=0.07]{img/4starNew}
+    ~
+  \section{Personal Skills}
+    \includegraphics[scale=0.24]{img/personalTrial6.png}
+    ~
+  \section{Languages}
+    \textbf{Greek}\includegraphics[scale=0.07]{img/5starNew.png}
+    \textbf{English}\includegraphics[scale=0.07]{img/4starNew.png}
+    ~
+%    \section{Work/Play Balance}
+%    \includegraphics[scale=0.62]{img/personalTrial.png}
+%    ~
+\end{aside}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2012 - 2015}
+    {Master's Degree in Wind Energy}
+    {Denmark's Technical University, Copenhagen}
+    {Relevant courses: Planning \& Development of Wind Farms, Wind Energy Technology \& Aerodynamics, Micro Meteorology for Wind Energy, Advance MATLAB programming, Offshore Wind Energy, Projects in Wind Turbine Aeroelasticity, Technology Economics Management \& Operation.\\
+    Title of the Thesis: \emph{"Simulation and Analysis of Vertical Axis Wind Turbines using Opbject Oriented Programming"      .}\vspace*{0.05cm}}
+  \entry
+    {2004 - 2011}
+    {Diploma in Mechanical Engineering}
+    {Aristotle University of Thessaloniki, Greece}
+    {5 year degree MEng: 300 ECTS Credits (180 ECTS: General Competence, 120 ECTS: Specialization in Energy Engineering)\\
+    Relevant courses: Statistics, Fluid mechanics, Renewable energy sources, Introduction to computer science, Industrial Management, Aerodynamics.\\
+    Title of the Thesis: \emph{"Green roof installation and its energy effect on two types of urban blocks of flats".}\vspace*{0.05cm}}
+  \entry
+    {2009 - 2010}
+    {Erasmus Programme}
+    {Budapest University of Technology and Economics, Hungary}
+    {European Community Action Scheme for the Mobility of University Students\\
+    Faculty of Mechanical Engineering}
+\end{entrylist}
+\textcolor{gray}{\rule{\textwidth}{1.5pt}}\vspace*{0.2cm}
+\section{Projects}
+\begin{entrylist}
+ \entry
+    {11/14 - 7/15}
+    {Wind Turbine Contest 2015}
+    {Delft University, Netherlands}
+    {Contest that will take part in July of 2015 in Delft University. I participate in the team representing the Technical University of Denmark.\vspace*{0.05cm}}
+    \entry
+    {10/14 - 2/15}
+    {PreFVAWT: Preliminary Tool}
+    {Lyngby, Denmark}
+    {Design and development of a Preliminary Tool, with user interface, for simulating Floating Vertical Axis Wind Turbines using MATLAB.\vspace*{0.05cm}}
+  \entry
+    {08/13 - 9/13}
+    {Project in Wind Energy Integration in Greenland}
+    {Nuuk, Greenland}
+    {A wind farm planing was conducted, including wind resource estimation, integration of wind power to the current grid and possible risks as well as n economical and Environmental Impact Assessment (EIA).}
+  \entry
+    {1/13 - 2/13}
+    {Feasibility study of Wind Park in Jasseines}
+    {Lyngby, Denmark}
+    {The report covered all the aspects of a feasibility study: wind resource assessment, wind farm layout, selection of wind turbines, environmental analysis. WindPRO was used along the project.\vspace*{0.05cm}}
+\end{entrylist}
+\textcolor{gray}{\rule{\textwidth}{1.5pt}}\vspace*{0.2cm}
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {10/11 - 9/12}
+    {Greek Army}
+    {Compulsory Military Service}
+    {Radar Operator in Air protection system\vspace*{0.05cm}}
+  \entry
+    {1/11 - 9/11}
+    {TOMI School}
+    {Private School for university students}
+    {Teacher assistant for MATLAB exersizes and assignments for engineering students.\vspace*{0.05cm}}
+  \entry
+    {7/9 - 9/09}
+    {Makedoniki Energiaki S.A.}
+    {Photovoltaic Installations}
+    {Internship through National Strategic Reference Framework. Assistant for planning PV installations using Skelion.}
+\end{entrylist}
+\textcolor{gray}{\rule{\textwidth}{1.5pt}}\vspace*{0.2cm}
+\section{Other Info}
+\begin{entrylist}
+\entry
+    {3/15-Present}
+    {Data Science Specialization}
+    {Coursera MOOC}
+    {A sequence of courses from Johns Hopkins University\vspace*{0.05cm}}
+\entry
+    {For Ever}
+    {Hobbies}
+    {}
+    {Travelling, Gym, Joking, Lifeguard, Movies, Friends}
+    \end{entrylist}
+\end{document}
+%\newpage
+%
+%\begin{aside}
+%~
+%~
+%~
+%  \section{Places Lived}
+%    \includegraphics[scale=0.25]{img/italia.png}
+%    ~
+%  \section{Languages}
+%    \textbf{Italian}\includegraphics[scale=0.40]{img/5stars.png}
+%    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+%\end{aside}
+%
+%\section{Publications}
+%C. Benedetto, E. Mingozzi, C. Vallati\\
+%\textbf{A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks}\\
+%\emph{Proceedings of the 18th IEEE Symposium on Computers and Communications (ISCC 2013), Split, Croatia, July 7-10, 2013}
+%\\
+%\section{Other Info}
+%For the Italian job market:\\
+%\emph{Si autorizza il trattamento delle informazioni contenute nel curriculum in conformità alle disposizioni previste dal d.lgs. 196/2003. Si dichiara altresì di essere consapevole che, in caso di dichiarazioni non veritiere, si è passibili di sanzioni penali ai sensi del DPR 445/00 oltre alla revoca dei benefici eventualmente percepiti.}
+%\\
+%\begin{flushleft}
+%\emph{January 14th, 2014}
+%\end{flushleft}
+%%\begin{flushright}
+%%\emph{Carmine Benedetto}
+%\end{flushright}
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+%\end{document}
